@@ -213,6 +213,11 @@ h3 { font-weight: 800; font-size: var(--step-body); line-height: 1.2; }
 .faq summary { transition: padding .35s var(--ease); }
 .faq__a { padding: 0 24px 24px; }
 .faq__a p { max-width: 52ch; }
+.edu { display: grid; gap: 8px; max-width: 52ch; }
+.edu li { position: relative; padding-left: 1.2em; }
+.edu li::before { content: ""; position: absolute; left: 0; top: .6em; width: .5em; height: .5em; border-radius: 50%; background: var(--ink); }
+.edu__note { margin-top: 12px; font-size: var(--step-small); }
+.about__fig img { object-position: 50% 30%; }
 .faq details[open] .faq__a { animation: faqIn .5s var(--ease); }
 @keyframes faqIn { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: none; } }
 
