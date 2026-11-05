@@ -2,6 +2,37 @@
   // ===== CONFIG =====
   const LEAD_ENDPOINT = 'https://lead-relay.leestygpt.workers.dev/lead/J46K5M6HKV';
 
+  const YM_ID = 0; // номер счётчика Яндекс Метрики: вписать после создания счётчика клиентом
+  const loadMetrica = () => {
+    if (!YM_ID || window.ym) return;
+    (function (m, e, t, r, i, k, a) {
+      m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments); };
+      m[i].l = 1 * new Date();
+      k = e.createElement(t); a = e.getElementsByTagName(t)[0]; k.async = 1; k.src = r; a.parentNode.insertBefore(k, a);
+    })(window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js', 'ym');
+    window.ym(YM_ID, 'init', { clickmap: true, trackLinks: true, accurateTrackBounce: true, webvisor: false });
+  };
+  let cookieChoice = null;
+  try { cookieChoice = localStorage.getItem('tp_cookie'); } catch (_) {}
+  if (cookieChoice === 'all') loadMetrica();
+  if (!cookieChoice) {
+    const bar = document.createElement('div');
+    bar.className = 'cookie';
+    bar.setAttribute('role', 'dialog');
+    bar.setAttribute('aria-label', 'Использование cookie');
+    bar.innerHTML = '<p>Сайт использует cookie, чтобы работать, и сервис статистики Яндекс Метрика, чтобы понимать, что улучшить. Подробнее в <a href="privacy.html#cookie">политике конфиденциальности</a>.</p>' +
+      '<div class="cookie__actions"><button type="button" class="btn" data-c="all"><span>Принять</span></button>' +
+      '<button type="button" class="btn btn--ghost" data-c="necessary"><span>Только необходимые</span></button></div>';
+    document.body.appendChild(bar);
+    bar.addEventListener('click', ev => {
+      const c = ev.target.closest('button')?.dataset.c;
+      if (!c) return;
+      try { localStorage.setItem('tp_cookie', c); } catch (_) {}
+      bar.remove();
+      if (c === 'all') loadMetrica();
+    });
+  }
+
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const fine = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
   const $ = (s, r = document) => r.querySelector(s);
@@ -312,6 +343,11 @@
     const payload = {};
     fd.forEach((v, k) => { payload[k] = v; });
     if (payload._gotcha) return;
+    if (!payload.consent) {
+      label.textContent = 'Отметьте согласие';
+      setTimeout(() => { label.textContent = orig; }, 2400);
+      return;
+    }
     if (!payload.name || !payload.contact) {
       label.textContent = 'Заполните имя и контакт';
       setTimeout(() => { label.textContent = orig; }, 2400);

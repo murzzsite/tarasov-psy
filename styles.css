@@ -321,3 +321,18 @@ h3 { font-weight: 800; font-size: var(--step-body); line-height: 1.2; }
   *, *::before, *::after { animation-duration: .001ms !important; animation-delay: 0s !important; transition-duration: .001ms !important; transition-delay: 0s !important; }
   .js [data-reveal], .js [data-hero], .js .ln > span { opacity: 1; transform: none; }
 }
+
+/* consent + cookie */
+.coupon__consent { display: flex; gap: 12px; align-items: flex-start; font-size: var(--step-small); line-height: 1.4; }
+.coupon__consent input { flex: none; width: 22px; height: 22px; margin: 0; accent-color: var(--ink); }
+.coupon__consent a { text-underline-offset: 3px; }
+.cookie { position: fixed; left: var(--m); right: var(--m); bottom: 16px; z-index: 120; max-width: 760px; margin: 0 auto; padding: 20px 24px; border-radius: var(--r); background: var(--accent); color: var(--ink); display: flex; flex-wrap: wrap; gap: 16px 24px; align-items: center; animation: faqIn .6s var(--ease); }
+.cookie[hidden] { display: none; }
+.cookie p { flex: 1 1 260px; font-size: var(--step-small); line-height: 1.45; }
+.cookie a { text-underline-offset: 3px; }
+.cookie__actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.cookie .btn { min-height: 44px; padding: 0 20px; }
+.cookie .btn--ghost { background: var(--accent-soft); }
+.legal p, .legal li { margin-top: 10px; max-width: 70ch; }
+.legal a:not(.btn) { text-underline-offset: 3px; }
+.legal .todo { background: var(--accent-soft); padding: 0 .3em; border-radius: 6px; }

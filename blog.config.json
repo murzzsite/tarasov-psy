@@ -1,0 +1,39 @@
+{
+  "siteName": "Михаил Тарасов",
+  "siteUrl": "https://tarasovpsy.ru",
+  "lang": "ru",
+  "repo": "murzzsite/tarasov-psy",
+  "ref": "J46K5M6HKV",
+  "workerUrl": "https://lead-relay.leestygpt.workers.dev",
+  "blogTitle": "Блог",
+  "blogDescription": "Статьи психолога Михаила Тарасова об отношениях, стоимости и формате терапии",
+  "homeTitle": "Полезные статьи об отношениях и терапии",
+  "author": {
+    "name": "Михаил Тарасов",
+    "jobTitle": "Психолог-психотерапевт",
+    "type": "Person"
+  },
+  "ctaTitle": "Хотите разобраться в своей ситуации?",
+  "ctaText": "Запишитесь на консультацию: на первой встрече вы расскажете, что происходит, и мы определим формат работы.",
+  "ctaButton": "Записаться на консультацию",
+  "ctaUrl": "/#contact",
+  "disclaimer": "Материал носит информационный характер и не заменяет консультацию специалиста. Психолог не ставит медицинских диагнозов и не назначает лекарства.",
+  "telegramNotify": true,
+  "cadenceDays": 7,
+  "homeLatest": 3,
+  "staticPages": [
+    "/",
+    "/privacy.html",
+    "/consent.html"
+  ],
+  "indexNowKey": "9d6519b11ebd03ea783d390040b0d70b",
+  "previewSecret": "e6f9a90b6e2c2bd0",
+  "theme": {
+    "accent": "var(--accent)",
+    "accent-soft": "var(--accent-soft)",
+    "bg": "var(--bg)",
+    "surface": "var(--surface)",
+    "ink": "var(--ink)",
+    "soft": "var(--muted)"
+  }
+}
