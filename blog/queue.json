@@ -1,21 +1,17 @@
 {
   "site": "https://tarasovpsy.ru",
   "updated": "2026-11-18",
-  "awaiting": [
-    {
-      "slug": "ssory-po-krugu-v-pare",
-      "path": "articles/ssory-po-krugu-v-pare.md",
-      "title": "Ссоры по кругу в паре: почему одни и те же конфликты повторяются и что с ними делать",
-      "description": "Почему пары ссорятся из-за одного и того же, как распознать замкнутый круг конфликта и что можно изменить самому. Когда стоит обратиться к психологу.",
-      "reading_time": "9 мин чтения",
-      "preview_url": "https://tarasovpsy.ru/blog/preview/bed00a6c8b01/ssory-po-krugu-v-pare/"
-    }
-  ],
+  "awaiting": [],
   "scheduled": [
     {
       "slug": "pervaya-konsultaciya-psihologa-po-otnosheniyam",
       "title": "Первая консультация психолога по отношениям: как проходит и как подготовиться",
       "date": "2026-11-25"
+    },
+    {
+      "slug": "ssory-po-krugu-v-pare",
+      "title": "Ссоры по кругу в паре: почему одни и те же конфликты повторяются и что с ними делать",
+      "date": "2026-12-02"
     }
   ],
   "published": [
