@@ -3,14 +3,6 @@
   "updated": "2026-11-18",
   "awaiting": [
     {
-      "slug": "kak-vybrat-psihologa-po-otnosheniyam",
-      "path": "articles/kak-vybrat-psihologa-po-otnosheniyam.md",
-      "title": "Как выбрать психолога по отношениям: чек-лист и вопросы специалисту",
-      "description": "Как выбрать психолога по отношениям: на что смотреть в образовании и формате, какие вопросы задать, какие признаки насторожат. Чек-лист для первой встречи.",
-      "reading_time": "9 мин чтения",
-      "preview_url": "https://tarasovpsy.ru/blog/preview/61b2f6a89971/kak-vybrat-psihologa-po-otnosheniyam/"
-    },
-    {
       "slug": "pervaya-konsultaciya-psihologa-po-otnosheniyam",
       "path": "articles/pervaya-konsultaciya-psihologa-po-otnosheniyam.md",
       "title": "Первая консультация психолога по отношениям: как проходит и как подготовиться",
@@ -29,6 +21,12 @@
   ],
   "scheduled": [],
   "published": [
+    {
+      "slug": "kak-vybrat-psihologa-po-otnosheniyam",
+      "title": "Как выбрать психолога по отношениям: чек-лист и вопросы специалисту",
+      "url": "https://tarasovpsy.ru/blog/kak-vybrat-psihologa-po-otnosheniyam/",
+      "date": "2026-11-18"
+    },
     {
       "slug": "stoimost-konsultacii-psihologa-po-otnosheniyam",
       "title": "Сколько стоит психолог по отношениям в Москве и из чего складывается цена",
