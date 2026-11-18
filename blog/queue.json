@@ -3,14 +3,6 @@
   "updated": "2026-11-18",
   "awaiting": [
     {
-      "slug": "pervaya-konsultaciya-psihologa-po-otnosheniyam",
-      "path": "articles/pervaya-konsultaciya-psihologa-po-otnosheniyam.md",
-      "title": "Первая консультация психолога по отношениям: как проходит и как подготовиться",
-      "description": "Что происходит на первой консультации психолога по отношениям: как подготовиться, о чём говорить, что спросить и как понять, подходит ли вам специалист.",
-      "reading_time": "9 мин чтения",
-      "preview_url": "https://tarasovpsy.ru/blog/preview/7f718b94aa13/pervaya-konsultaciya-psihologa-po-otnosheniyam/"
-    },
-    {
       "slug": "ssory-po-krugu-v-pare",
       "path": "articles/ssory-po-krugu-v-pare.md",
       "title": "Ссоры по кругу в паре: почему одни и те же конфликты повторяются и что с ними делать",
@@ -19,7 +11,13 @@
       "preview_url": "https://tarasovpsy.ru/blog/preview/bed00a6c8b01/ssory-po-krugu-v-pare/"
     }
   ],
-  "scheduled": [],
+  "scheduled": [
+    {
+      "slug": "pervaya-konsultaciya-psihologa-po-otnosheniyam",
+      "title": "Первая консультация психолога по отношениям: как проходит и как подготовиться",
+      "date": "2026-11-25"
+    }
+  ],
   "published": [
     {
       "slug": "kak-vybrat-psihologa-po-otnosheniyam",
