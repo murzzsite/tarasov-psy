@@ -1,7 +1,32 @@
 {
   "site": "https://tarasovpsy.ru",
-  "updated": "2026-11-17",
-  "awaiting": [],
+  "updated": "2026-11-18",
+  "awaiting": [
+    {
+      "slug": "kak-vybrat-psihologa-po-otnosheniyam",
+      "path": "articles/kak-vybrat-psihologa-po-otnosheniyam.md",
+      "title": "Как выбрать психолога по отношениям: чек-лист и вопросы специалисту",
+      "description": "Как выбрать психолога по отношениям: на что смотреть в образовании и формате, какие вопросы задать, какие признаки насторожат. Чек-лист для первой встречи.",
+      "reading_time": "9 мин чтения",
+      "preview_url": "https://tarasovpsy.ru/blog/preview/61b2f6a89971/kak-vybrat-psihologa-po-otnosheniyam/"
+    },
+    {
+      "slug": "pervaya-konsultaciya-psihologa-po-otnosheniyam",
+      "path": "articles/pervaya-konsultaciya-psihologa-po-otnosheniyam.md",
+      "title": "Первая консультация психолога по отношениям: как проходит и как подготовиться",
+      "description": "Что происходит на первой консультации психолога по отношениям: как подготовиться, о чём говорить, что спросить и как понять, подходит ли вам специалист.",
+      "reading_time": "9 мин чтения",
+      "preview_url": "https://tarasovpsy.ru/blog/preview/7f718b94aa13/pervaya-konsultaciya-psihologa-po-otnosheniyam/"
+    },
+    {
+      "slug": "ssory-po-krugu-v-pare",
+      "path": "articles/ssory-po-krugu-v-pare.md",
+      "title": "Ссоры по кругу в паре: почему одни и те же конфликты повторяются и что с ними делать",
+      "description": "Почему пары ссорятся из-за одного и того же, как распознать замкнутый круг конфликта и что можно изменить самому. Когда стоит обратиться к психологу.",
+      "reading_time": "9 мин чтения",
+      "preview_url": "https://tarasovpsy.ru/blog/preview/bed00a6c8b01/ssory-po-krugu-v-pare/"
+    }
+  ],
   "scheduled": [],
   "published": [
     {
