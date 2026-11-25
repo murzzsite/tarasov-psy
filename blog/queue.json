@@ -1,13 +1,8 @@
 {
   "site": "https://tarasovpsy.ru",
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "awaiting": [],
   "scheduled": [
-    {
-      "slug": "pervaya-konsultaciya-psihologa-po-otnosheniyam",
-      "title": "Первая консультация психолога по отношениям: как проходит и как подготовиться",
-      "date": "2026-11-25"
-    },
     {
       "slug": "ssory-po-krugu-v-pare",
       "title": "Ссоры по кругу в паре: почему одни и те же конфликты повторяются и что с ними делать",
@@ -15,6 +10,12 @@
     }
   ],
   "published": [
+    {
+      "slug": "pervaya-konsultaciya-psihologa-po-otnosheniyam",
+      "title": "Первая консультация психолога по отношениям: как проходит и как подготовиться",
+      "url": "https://tarasovpsy.ru/blog/pervaya-konsultaciya-psihologa-po-otnosheniyam/",
+      "date": "2026-11-25"
+    },
     {
       "slug": "kak-vybrat-psihologa-po-otnosheniyam",
       "title": "Как выбрать психолога по отношениям: чек-лист и вопросы специалисту",
